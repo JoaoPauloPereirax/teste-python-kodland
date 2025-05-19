@@ -4,7 +4,7 @@ import random
 # Configurações básicas
 WIDTH = 800
 HEIGHT = 600
-TITLE = "Coletor de Moedas"
+TITLE = "Pelúcio o Coletor de Moedas"
 
 # Cria o jogador (usando um retângulo se não tiver imagem)
 player = Actor('player', (400, 300))
