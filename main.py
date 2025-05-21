@@ -4,7 +4,7 @@ import random
 # Configurações
 WIDTH = 800
 HEIGHT = 600
-TITLE = "Super Mario Simplificado"
+TITLE = "Super Retangulo"
 GRAVITY = 0.8
 JUMP_STRENGTH = -18
 PLAYER_SPEED = 5
@@ -241,7 +241,7 @@ def draw():
     
     if game_state == MENU:
         screen.draw.text(
-            "SUPER MARIO PYTHON",
+            "SUPER RETANGULO",
             center=(WIDTH//2, HEIGHT//4),
             fontsize=60,
             color=(255, 0, 0),
@@ -288,7 +288,7 @@ def draw():
             scolor="black"
         )
         screen.draw.text(
-            f"Pontuação: {player.score}",
+            f"Pontuacao: {player.score}",
             center=(WIDTH//2, HEIGHT//2 - 30),
             fontsize=40,
             color=(0, 0, 0))
@@ -297,7 +297,7 @@ def draw():
     
     elif game_state == VICTORY:
         screen.draw.text(
-            "VOCÊ VENCEU!",
+            "VOCE VENCEU!",
             center=(WIDTH//2, HEIGHT//3),
             fontsize=60,
             color=(255, 215, 0),
@@ -305,7 +305,7 @@ def draw():
             scolor="black"
         )
         screen.draw.text(
-            f"Pontuação Final: {player.score}",
+            f"Pontuacao Final: {player.score}",
             center=(WIDTH//2, HEIGHT//2 - 30),
             fontsize=40,
             color=(0, 0, 0))
